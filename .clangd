@@ -1,0 +1,2 @@
+CompileFlags:
+    Remove: -fconcepts  # ignore -fconcepts compiler flag (not supported by clangd)

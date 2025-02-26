@@ -1,0 +1,14 @@
+# BasedOnStyle:  Google
+BasedOnStyle: Google
+AccessModifierOffset: -1
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Always # allow short if statements on a single line
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakTemplateDeclarations: Yes # allow short if statements on a single line
+ColumnLimit:     100
+Language: Cpp
+PointerAlignment: Left
+SpaceAfterTemplateKeyword: false
+SpacesBeforeTrailingComments: 2

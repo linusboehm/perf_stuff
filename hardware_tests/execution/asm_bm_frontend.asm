@@ -60,7 +60,7 @@ ASM_add_loop_unrolled:
       add rsi, r9
       add r10, r9
       add r11, r9
-      ; add rdx, r9
+      add rdx, r9
     %endrep
     dec rdi
     jnz .loop

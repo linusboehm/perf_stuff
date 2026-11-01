@@ -78,8 +78,8 @@ BENCHMARK(BM_add)->Iterations(8000);
 BENCHMARK(BM_add_loop)->Iterations(8000);
 BENCHMARK(BM_nop_short)->Iterations(8000);
 BENCHMARK(BM_nop_short_loop)->Iterations(8000);
-BENCHMARK(BM_add_loop_unrolled)->Iterations(8000);
-BENCHMARK(BM_nop_long)->Iterations(8000);
-BENCHMARK(BM_nop_long_loop)->Iterations(8000);
+// BENCHMARK(BM_add_loop_unrolled)->Iterations(8000);
+// BENCHMARK(BM_nop_long)->Iterations(8000);
+// BENCHMARK(BM_nop_long_loop)->Iterations(8000);
 
 BENCHMARK_MAIN();

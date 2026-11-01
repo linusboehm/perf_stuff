@@ -44,6 +44,9 @@ void BM_mov3(benchmark::State& state) {
   }
 }
 
+///////////////////////////
+/// TODO(lboehm): mention why not register to regiter mov
+/////////////////////////
 void BM_mov_add(benchmark::State& state) {
   uint64_t num = 0;
   uint64_t val = 123;

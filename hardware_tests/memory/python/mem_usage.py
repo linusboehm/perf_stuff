@@ -6,10 +6,10 @@ class Thing:
     def __init__(self, qty: int):
         self.qty_ = qty
 
-things = get_things(5)
-# things = get_things(10000000)
+# things = get_things(5)
+things = get_things(10000000)
 
 # print sum of all qtys
-quantities = [thing.qty_ for thing in things]
+quantities = (thing.qty_ for thing in things)
 
-print(quantities)
+print(sum(quantities))
